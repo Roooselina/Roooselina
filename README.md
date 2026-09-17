@@ -1,31 +1,79 @@
-# 이은정
+<p align="center">
+  <img src="./assets/portfolio-header.svg" width="100%" alt="Eunjung Lee · AI & Application Development" />
+</p>
 
-AI·머신러닝 / AI 응용 개발
+<p align="center">
+  <a href="#projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#learning">Learning</a> &nbsp;·&nbsp;
+  <a href="#background">Background</a> &nbsp;·&nbsp;
+  <a href="mailto:kurocheki1@gmail.com">Contact</a>
+</p>
 
-순천향대학교 컴퓨터공학과에서 음성 딥페이크 탐지 연구와 Android 앱 개발을 진행했습니다. 2027년 2월 졸업 예정입니다.
+<br>
 
-## 프로젝트
+### 안녕하세요, 이은정입니다.
 
-### [딥페이크 음성 탐지](https://github.com/Roooselina/Capstone-Project)
+음성 딥페이크 탐지를 연구하고, 한국어 말투 변환 Android 앱을 개발했습니다.  
+모델을 학습하고 비교하는 일과 AI 기능을 앱에 연결하는 일을 함께 공부하고 있습니다.
 
-- Python, PyTorch, librosa를 사용한 졸업논문 프로젝트
-- 6종 음향 특징을 결합한 106차원 입력으로 BiLSTM, Transformer, Hybrid 비교
-- 테스트 15,891건에서 BiLSTM Macro F1 0.9990, EER 0.082%
-- 5-fold Macro F1 평균 0.986, 표준편차 0.006
-- 외부 한국어 음성과 새로운 합성 방식은 추가 검증 필요
+**AI·머신러닝 / AI 응용 개발** 분야로 취업을 준비하고 있습니다.  
+순천향대학교 컴퓨터공학과 · **2027년 2월 졸업 예정**
 
-### [AI 오늘의 말투 변환기](https://github.com/Roooselina/Mobile-Application-Programming)
+<br>
 
-- Java, SQLite, Retrofit, OkHttp, Claude API를 사용한 3인 팀 프로젝트
-- 담당: Android 개발, DB, 인증, 대화 로직, API 연동
-- 계정별 대화 저장, 이메일 인증, 응답 재생성과 버전 관리 구현
-- 배포 전 서버 프록시와 인증 구조 개선 필요
+<h2 id="projects">Selected projects</h2>
 
-## 활동 및 자격
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>01 &nbsp; / &nbsp; MACHINE LEARNING</sub>
+<h3><a href="https://github.com/Roooselina/Capstone-Project">딥페이크 음성 탐지 ↗</a></h3>
+<p>실제 음성과 합성 음성을 구분하는<br>졸업논문 프로젝트</p>
+<p>음향 특징 추출부터 모델 학습·비교,<br>평가 결과 분석까지 진행했습니다.</p>
+<p><code>Python</code> <code>PyTorch</code> <code>librosa</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>02 &nbsp; / &nbsp; AI APPLICATION</sub>
+<h3><a href="https://github.com/Roooselina/Mobile-Application-Programming">한국어 말투 변환기 ↗</a></h3>
+<p>상대와 상황에 맞게 문장을 바꾸는<br>Android 앱 · 3인 팀 프로젝트</p>
+<p>Android 개발, DB, 인증,<br>대화 로직과 API 연동을 담당했습니다.</p>
+<p><code>Java</code> <code>Android</code> <code>SQLite</code> <code>Retrofit</code></p>
+</td>
+</tr>
+</table>
 
-- CSE 연구실 2년 / IPL 연구실 1년
-- ADsP 데이터분석 준전문가
+<br>
 
-## 연락처
+<h2 id="learning">Learning & interests</h2>
 
-kurocheki1@gmail.com
+딥러닝과 AI 응용 개발을 중심으로 공부하며, 전공 학습 내용을 저장소에 정리하고 있습니다.
+
+| 분야 | 학습 기록 |
+| :--- | :--- |
+| 딥러닝 | [Deep Learning](https://github.com/Roooselina/Deep_Learning) |
+| 전공 세미나 | [Seminar](https://github.com/Roooselina/SEMINAR_SCH_UNIV) |
+| 알고리즘 · 문제 풀이 | [Coding Test](https://github.com/Roooselina/CSLab2025_CodingTest) |
+
+**관심 분야** &nbsp; 음성 AI · 모델 평가 · AI API를 활용한 서비스 개발
+
+<br>
+
+### Tools I've used
+
+**ML** &nbsp; `Python` `PyTorch` `librosa` `scikit-learn`  
+**Application** &nbsp; `Java` `Android` `SQLite` `Retrofit` `OkHttp`
+
+<br>
+
+<h2 id="background">Background</h2>
+
+| 학력 | 활동 · 자격 |
+| :--- | :--- |
+| **순천향대학교 컴퓨터공학과**<br>Soonchunhyang University<br>2027.02 졸업 예정 | CSE 연구실 · 2년<br>IPL 연구실 · 1년<br>ADsP · 데이터분석 준전문가 |
+
+<br>
+
+<p align="center">
+  <b>Let's connect</b><br>
+  <a href="mailto:kurocheki1@gmail.com">kurocheki1@gmail.com</a>
+</p>
