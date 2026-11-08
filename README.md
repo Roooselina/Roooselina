@@ -37,7 +37,7 @@
 `Java` `Android` `SQLite` `Retrofit` `Claude API` · 3인 팀
 
 - **문제**: 상대와 상황을 매번 설명하지 않고 한국어 문장의 말투를 바꾸기.
-- **담당**: Android 개발, DB, 인증, 대화 로직, API 연동.
+- **담당**: 기획, AI 기능 고도화, 계정·DB·API 연동 구조 설계, Android 개발(DB, 인증, 대화 로직, API 연동).
 - **구현**: 계정별 프롬프트·대화 이력·응답 버전을 SQLite에 저장, 이메일 인증과 SHA-256+솔트 비밀번호, 입력 후 1.2초 미리보기와 전송 시 재사용.
 - **한계**: 클라이언트가 API를 직접 호출하므로 배포 전 서버 프록시가 필요.
 
@@ -47,7 +47,7 @@
 
 | 저장소 | 내용 |
 |---|---|
-| [deepfake-voice-detector](https://github.com/Roooselina/deepfake-voice-detector) | 딥페이크 음성 판별 Android 앱 + Flask 서버 (2인 팀, 웹–AI 연결 외 개발 담당) |
+| [deepfake-voice-detector](https://github.com/Roooselina/deepfake-voice-detector) | 딥페이크 음성 판별 Android 앱 + Flask 서버 (2인 팀, Flask 서버 모델 연동 외 개발 담당) · 2025 공학대학 학술제 금상 |
 | [Deep_Learning](https://github.com/Roooselina/Deep_Learning) | MLP·CNN·전이학습 과제, 신선/부패 식품 분류와 Grad-CAM |
 | [SEMINAR_SCH_UNIV](https://github.com/Roooselina/SEMINAR_SCH_UNIV) | 연구실 머신러닝 기초·심화, DQN/DDQN 세미나 실습 |
 | [Computer-Game](https://github.com/Roooselina/Computer-Game) | Unity 2D 러너와 3D 탄알 피하기 텀프로젝트 |
@@ -83,12 +83,12 @@ C · C++ · C# (WinForms) · Unity · Flask · HTML/CSS/JavaScript
 ### 활동 · 자격
 
 - 학부연구생: 순천향대학교 CSE 연구실(2023.12 ~ 2025), IPL 연구실(2025 ~ 현재)
-- 수상: 2024 공학대학 학술제 은상, 2025 공학대학 학술제 금상, 2026 학술제 장려상(Decision Agent)
+- 수상: 2024 공학대학 학술제 은상(퍼스널 컬러 진단 앱), 2025 공학대학 학술제 금상(딥보이스 탐지 서비스), 2026 학술제 장려상(Decision Agent)
 - 학술제 발표: 2024 퍼스널 컬러 진단 앱(모델 학습 담당, [디자인·발표 자료](https://github.com/Roooselina/personalized-color-app)), 2026 Decision Agent
-- 멋쟁이사자처럼 순천향대 13기 AI 파트: 세션 예제 코드 작성, 과제 PR 리뷰·병합
+- 멋쟁이사자처럼 순천향대 13기 AI 파트 운영진: 세션 예제 코드 작성, 과제 PR 리뷰·병합
 - CODE 동아리 운영위원(2024 ~ 2025): 1학년 대상 코딩 수업 진행
 - ADsP (데이터분석 준전문가, 2025-06)
 
 ### Contact
 
-kurocheki1@gmail.com
+eunjlee.work@gmail.com
