@@ -1,6 +1,6 @@
 <div align="center">
 
-## 이은정 · Lee Eunjeong
+## 이은정 · Lee EunJeong
 
 **AI 모델 개발 · AI 서비스 / 백엔드 개발**
 
@@ -16,7 +16,7 @@
 
 #### 1. [Decision Agent: 의사결정 변경 전파 불일치 탐지](https://github.com/Roooselina/decision_agent)
 
-`Python` `Anthropic API` `FastAPI` `SQLite` `scikit-learn` `pytest` · 2026 학술제
+`Python` `Anthropic API` `FastAPI` `SQLite` `scikit-learn` `pytest` · 2026 학술제 장려상
 
 - **문제**: 회의에서 결정이 바뀌어도 요구사항·Task·테스트·일정 문서에 옛 내용이 남는다. 결정에는 MVP 한정처럼 적용 범위가 있어 키워드 검색으로는 구분하기 어렵다.
 - **구현**: 결정·관계·scope를 구조화해 SQLite에 저장하고, 산출물마다 유효한 결정을 계산한 뒤 LLM으로 판정. 같은 판단 함수를 고정 순서 Pipeline과 도구 선택형 Agent가 공유하도록 설계. 근거가 부족하면 확인 질문.
@@ -25,7 +25,7 @@
 
 #### 2. [딥페이크 음성 탐지: 다중 음향 특징 + 시퀀스 모델 비교](https://github.com/Roooselina/Capstone-Project)
 
-`Python` `PyTorch` `librosa` `scikit-learn` · 졸업논문
+`Python` `PyTorch` `librosa` `scikit-learn` · 졸업논문(개인 연구) · 2025.09–11
 
 - **문제**: 실제 음성과 합성 음성 구분.
 - **구현**: MFCC·Δ·ΔΔ·LFCC·Mel·Spectral Contrast를 같은 프레임 격자에서 106차원으로 결합, BiLSTM·Transformer·Hybrid를 같은 조건으로 비교. RAM 15 GB에서 약 31 GB 특징을 다루기 위해 청크 저장과 Welford 정규화 사용.
@@ -47,7 +47,7 @@
 
 | 저장소 | 내용 |
 |---|---|
-| [deepfake-voice-detector](https://github.com/Roooselina/deepfake-voice-detector) | 딥페이크 음성 판별 Android 앱 + Flask 서버 (팀 프로젝트) |
+| [deepfake-voice-detector](https://github.com/Roooselina/deepfake-voice-detector) | 딥페이크 음성 판별 Android 앱 + Flask 서버 (2인 팀, 웹–AI 연결 외 개발 담당) |
 | [Deep_Learning](https://github.com/Roooselina/Deep_Learning) | MLP·CNN·전이학습 과제, 신선/부패 식품 분류와 Grad-CAM |
 | [SEMINAR_SCH_UNIV](https://github.com/Roooselina/SEMINAR_SCH_UNIV) | 연구실 머신러닝 기초·심화, DQN/DDQN 세미나 실습 |
 | [Computer-Game](https://github.com/Roooselina/Computer-Game) | Unity 2D 러너와 3D 탄알 피하기 텀프로젝트 |
@@ -82,9 +82,12 @@ C · C++ · C# (WinForms) · Unity · Flask · HTML/CSS/JavaScript
 
 ### 활동 · 자격
 
-- 순천향대학교 CSE 연구실 2년, IPL 연구실 1년
-- ADsP (데이터분석 준전문가)
-- 학술제 발표: 2024 퍼스널 컬러 진단 앱([디자인·발표 자료](https://github.com/Roooselina/personalized-color-app)), 2026 Decision Agent
+- 학부연구생: 순천향대학교 CSE 연구실(2023.12 ~ 2025), IPL 연구실(2025 ~ 현재)
+- 수상: 2024 공학대학 학술제 은상, 2025 공학대학 학술제 금상, 2026 학술제 장려상(Decision Agent)
+- 학술제 발표: 2024 퍼스널 컬러 진단 앱(모델 학습 담당, [디자인·발표 자료](https://github.com/Roooselina/personalized-color-app)), 2026 Decision Agent
+- 멋쟁이사자처럼 순천향대 13기 AI 파트: 세션 예제 코드 작성, 과제 PR 리뷰·병합
+- CODE 동아리 운영위원(2024 ~ 2025): 1학년 대상 코딩 수업 진행
+- ADsP (데이터분석 준전문가, 2025-06)
 
 ### Contact
 
